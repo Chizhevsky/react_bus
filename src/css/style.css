@@ -1,0 +1,28 @@
+body {
+  background-color: #e8eaf6;
+}
+
+.navbar.navbar-default {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #113b92;
+  border-radius: 0px;
+  color: white;
+}
+
+.navbar-header .navbar-brand {
+  color: white;
+}
+
+.navbar-header .navbar-brand:hover {
+  color: white;
+}
+
+.nav.navbar-nav.navbar-right li a {
+  color: white;
+  border-bottom: 2px solid #113b92;
+}
+
+.nav.navbar-nav.navbar-right li:hover a {
+  border-bottom: 2px solid white;
+}
