@@ -1,25 +1,26 @@
 import React from 'react';
+import { IndexLink, Link } from 'react-router';
 
 export default class Header extends React.Component {
   render() {
     return (
-      <nav class="navbar navbar-default">
-        <div class="container-fluid">
-          <div class="col-md-8 col-md-offset-2">
-            <div class="navbar-header">
+      <nav className="navbar navbar-default">
+        <div className="container-fluid">
+          <div className="col-md-8 col-md-offset-2">
+            <div className="navbar-header">
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
+                <span className="sr-only">Toggle navigation</span>
+                <span className="icon-bar"></span>
+                <span className="icon-bar"></span>
+                <span className="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="#">London Bus</a>
+              <a className="navbar-brand" href="#">London Bus</a>
             </div>
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-              <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Main</a></li>
-                <li><a href="#">Buses</a></li>
-                <li><a href="#">Stations</a></li>
+            <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul className="nav navbar-nav navbar-right">
+                <li><Link to="/">Main</Link></li>
+                <li><Link to="/buses">Buses</Link></li>
+                <li><Link to="/stations">Stations</Link></li>
               </ul>
             </div>
           </div>

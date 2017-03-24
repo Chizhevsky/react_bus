@@ -1,0 +1,42 @@
+0 verbose run-script [ 'predev', 'dev', 'postdev' ]
+1 info lifecycle react-bus@0.0.0~predev: react-bus@0.0.0
+2 silly lifecycle react-bus@0.0.0~predev: no script for predev, continuing
+3 info lifecycle react-bus@0.0.0~dev: react-bus@0.0.0
+4 verbose lifecycle react-bus@0.0.0~dev: unsafe-perm in lifecycle true
+5 verbose lifecycle react-bus@0.0.0~dev: PATH: C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;F:\Alexey\projects\react_bus\node_modules\.bin;C:\Program Files\nodejs;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_45\bin\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Git\bin;c:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;C:\Program Files\MongoDB\Server\3.2\bin\;C:\Program Files\MongoDB\Server\3.2\bin;C:\Program Files\nodejs\;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\Skype\Phone\;C:\Users\Лёша\AppData\Local\atom\bin;C:\Users\Лёша\AppData\Local\.meteor\;C:\Users\Лёша\AppData\Roaming\npm;C:\Program Files\MongoDB\Server\3.2\bin
+6 verbose lifecycle react-bus@0.0.0~dev: CWD: F:\Alexey\projects\react_bus
+7 silly lifecycle react-bus@0.0.0~dev: Args: [ '/d /s /c',
+7 silly lifecycle   'webpack-dev-server --content-base src --inline --hot' ]
+8 silly lifecycle react-bus@0.0.0~dev: Returned: code: 3221225786  signal: null
+9 info lifecycle react-bus@0.0.0~dev: Failed to exec dev script
+10 verbose stack Error: react-bus@0.0.0 dev: `webpack-dev-server --content-base src --inline --hot`
+10 verbose stack Exit status 3221225786
+10 verbose stack     at EventEmitter.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:242:16)
+10 verbose stack     at emitTwo (events.js:106:13)
+10 verbose stack     at EventEmitter.emit (events.js:191:7)
+10 verbose stack     at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:40:14)
+10 verbose stack     at emitTwo (events.js:106:13)
+10 verbose stack     at ChildProcess.emit (events.js:191:7)
+10 verbose stack     at maybeClose (internal/child_process.js:852:16)
+10 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:215:5)
+11 verbose pkgid react-bus@0.0.0
+12 verbose cwd F:\Alexey\projects\react_bus
+13 error Windows_NT 6.1.7601
+14 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "run" "dev"
+15 error node v6.4.0
+16 error npm  v3.10.3
+17 error code ELIFECYCLE
+18 error react-bus@0.0.0 dev: `webpack-dev-server --content-base src --inline --hot`
+18 error Exit status 3221225786
+19 error Failed at the react-bus@0.0.0 dev script 'webpack-dev-server --content-base src --inline --hot'.
+19 error Make sure you have the latest version of node.js and npm installed.
+19 error If you do, this is most likely a problem with the react-bus package,
+19 error not with npm itself.
+19 error Tell the author that this fails on your system:
+19 error     webpack-dev-server --content-base src --inline --hot
+19 error You can get information on how to open an issue for this project with:
+19 error     npm bugs react-bus
+19 error Or if that isn't available, you can get their info via:
+19 error     npm owner ls react-bus
+19 error There is likely additional logging output above.
+20 verbose exit [ 1, true ]

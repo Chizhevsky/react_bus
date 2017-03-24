@@ -2,6 +2,13 @@ body {
   background-color: #e8eaf6;
 }
 
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* Header */
+
 .navbar.navbar-default {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -12,6 +19,10 @@ body {
 
 .navbar-header .navbar-brand {
   color: white;
+}
+
+.navbar-header:hover {
+  background-color: #113b92;
 }
 
 .navbar-header .navbar-brand:hover {
@@ -25,4 +36,31 @@ body {
 
 .nav.navbar-nav.navbar-right li:hover a {
   border-bottom: 2px solid white;
+}
+
+/* Main */
+
+#main-page .jumbotron {
+  padding-left: 50px;
+  background-color: white;
+  border: 1px solid #113b92;
+  border-radius: 5px
+}
+
+/* Stations */
+
+#stations-page .panel.panel-default {
+  background-color: white;
+  border: 1px solid #113b92;
+  border-radius: 5px;
+  padding-bottom: 30px;
+}
+
+#stations-page h2 {
+  color: #113b92;
+}
+
+/* ListOfStations */
+.list-of-station {
+  padding-bottom: 50px;
 }
