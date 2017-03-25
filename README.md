@@ -1,7 +1,7 @@
 # react_bus
 SPA on React, bus schedule
 
-Ссылка на страничку: 
+[Ссылка на страничку](https://chizhevsky.github.io/react_bus/src/)
 
 ### Суть:
 Небальшая страничка (spa) на React, в которой можно узнать:
