@@ -5,6 +5,7 @@ import { Router, Route, hashHistory } from 'react-router';
 import Main from './components/Main';
 import Buses from './components/Buses';
 import Stations from './components/Stations';
+import SpecificBuses from './components/SpecificBuses';
 
 const app = document.getElementById('app');
 
@@ -83,10 +84,23 @@ const stations = [
   },
 ];
 
+const routes = {
+  moskow: {
+    time: ["2:30", "5:40", "7:50", "8:30", "10:00", "11:30", "15:00", "17:15", "19:00", "20-00", "20-40", "21:30", "22:00", "23:15"]
+  },
+  vilnius: {
+    time: ["5:30", "7:50", "8:30", "10:00", "11:30", "15:00", "19:00",  "20-40", "22:00", "23:15"]
+  },
+  riga: {
+    time: ["6:30", "8:50", "9:30", "10:00", "12:30", "16:00", "19:00",  "20-15", "22:30", "23:40"]
+  },
+};
+
 ReactDOM.render(
   <Router history={hashHistory}>
       <Route path="/" component={Main} />
       <Route path="/buses" component={Buses} />
+      <Route path="/buses/:way" component={SpecificBuses} routes={routes} />
       <Route path="/stations" component={Stations} stations={stations}/>
   </Router>,
   app

@@ -64,3 +64,18 @@ body {
 .list-of-station {
   padding-bottom: 50px;
 }
+
+/* ListOgBuses */
+.nav.nav-pills.nav-justified li a {
+  font-size: 25px;
+}
+
+.nav.nav-pills.nav-justified li a:hover {
+  background-color: #113b92;
+  color: white;
+}
+
+.nav.nav-pills.nav-justified li a:focus {
+  background-color: #113b92;
+  color: white;
+}
